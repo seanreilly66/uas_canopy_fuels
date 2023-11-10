@@ -3,7 +3,7 @@ R code from the analyses presented in "Unoccupied aerial system (UAS) Structure-
 
 ## Contents
 
-### UAS-SfM data preprocessing
+### LAS data preprocessing
 [**als_dtm_generation.R**](https://github.com/seanreilly66/uas_canopy_fuels/blob/main/R/als_dtm_generation.R): Generates DTM from ALS las files and converts the DTM to a LAS file format for use in ground icp registration of UAS files
 
 ### Field data
