@@ -8,6 +8,7 @@ R code from the analyses presented in "Unoccupied aerial system (UAS) Structure-
 
 ### Field data
 [**biomass_computation.R**](https://github.com/seanreilly66/uas_canopy_fuels/blob/main/R/biomass_computation.R): Computes tree and plot level biomass
+
 [**biomass_equations.R**](https://github.com/seanreilly66/uas_canopy_fuels/blob/main/R/biomass_equations.R): Function for CARB biomass equations
 
 
