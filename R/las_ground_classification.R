@@ -79,12 +79,11 @@ grndpt_csv_export <- 'data/las/icp_registration/n_grndpts_temp.csv'
 # ==============================================================================
 
 las_files <- list.files(las_folder, pattern = 'raw')
-las_file <- las_files[65]
 
 # -------------------------- Setup cluster processing --------------------------
 
 
-cl <- makeCluster(1)
+cl <- makeCluster(10)
 registerDoParallel(cl)
 
 grnd_pts <- foreach (
