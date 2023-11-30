@@ -72,7 +72,7 @@ grnd_export <- 'data/las/icp_registration/uas_grnd_las'
 
 grndpt_csv_export <- 'data/las/icp_registration/n_grndpts_temp.csv'
 
-
+n_core <- 10
 
 # ==============================================================================
 # ========================== Classify ground points ============================
@@ -83,7 +83,7 @@ las_files <- list.files(las_folder, pattern = 'raw')
 # -------------------------- Setup cluster processing --------------------------
 
 
-cl <- makeCluster(10)
+cl <- makeCluster(n_core)
 registerDoParallel(cl)
 
 grnd_pts <- foreach (
